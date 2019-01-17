@@ -2,5 +2,67 @@
     margin: 0 auto;
     min-width: 1000px;
     max-width: 1400px;
-    background-image: url('../pages/jessy/Backgrounds/memphis-colorful.png');
+    background: url(../pages/jessy/Backgrounds/prism/prism.png);
+    
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .menu-container {
+    color: #fff;
+    background-color: rgba(255, 74, 64, 0.575); 
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .menu {
+    border: 0px solid #fff;  /* For debugging */
+    width: 2000px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .links {
+    border: 0px solid #fff;  /* For debugging */
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    margin-right: 40px;
+  }
+  
+  .playful {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .prestige {
+    margin-right: 10px;
+    
+  }
+
+  .trustworthy {
+    margin-right: 10px;
+   
+  }
+  a {
+      text-decoration: none;
+      color: #a60800;
+  }
+
+  .date {
+      margin-left: 40px;
+  }
+
+
+  .text-container {
+    color: #fff;
+    background-color: rgba(255, 74, 64, 0.575); 
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
   }
