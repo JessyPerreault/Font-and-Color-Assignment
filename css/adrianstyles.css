@@ -23,7 +23,7 @@
 .hero {
     height: 400px;
     background: #800000;
-    background-image: url('../images/photo-1464393440949-38b1b0e057fe.jfif');
+    background-image: url('../images/Formal.gif');
     background-size: cover;
 }
 
@@ -42,6 +42,5 @@
 .section2 {
     display: flex;
     
-
 }
 
