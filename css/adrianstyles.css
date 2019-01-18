@@ -25,12 +25,13 @@
     background: #800000;
     background-image: url('../images/Formal.gif');
     background-size: cover;
+    flex: auto;
 }
 
 .piclink {
     background: blue;
     height: 200px;
-    background-image: url('../images/creative.jfif');
+    
     flex: 1;
     margin: 5px 0;
     margin-right: 5px;
@@ -43,5 +44,21 @@
 .section2 {
     display: flex;
     
+}
+
+.link1 {
+    background-image: url('../images/creative.jfif');
+    background-position: 55% 12%;
+
+}
+
+.link2 {
+    background-image: url('../images/corporate.jfif');
+    background-position: 45% 70%;
+}
+
+.link3 {
+    background-image: url('../images/Mysterious.jfif');
+    background-position: 35% 80%;
 }
 
