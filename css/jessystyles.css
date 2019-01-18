@@ -20,6 +20,16 @@
   margin: auto;
   width: 60%;
   padding: 40px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  color: #269b0e;
+  text-align: center;
+}
+.fun-info h1{
+  font-family: 'Bungee Shade', cursive;
+  font-weight: light;
+  font-size: 22px;
+  color: #ce5353;
+  text-align: center;
 }
 
 .fun-header {
@@ -28,15 +38,21 @@
   font-weight: bolder;
   color: #4a758d;
   font-family: 'Bungee Shade', cursive;
-  border-top: 5px solid rgba(135, 44, 196, 0.671);
-  border-bottom: 5px solid rgba(135, 44, 196, 0.671);
+  border-top: 5px solid rgba(88, 22, 133, 0.671);
+  border-bottom: 5px solid rgba(88, 22, 133, 0.671);
 }
 
 .fun-footer {
-  border-top: 5px solid rgba(135, 44, 196, 0.671);
-  border-bottom: 5px solid rgba(135, 44, 196, 0.671);
+  border-top: 5px solid rgba(89, 22, 133, 0.712);
+  /* border-bottom: 5px solid rgba(135, 44, 196, 0.671); */
   padding: 30px;
-  
+
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
 }
 
 /* insert new pages styles underneath this comment   */
