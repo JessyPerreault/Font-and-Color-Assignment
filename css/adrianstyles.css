@@ -30,6 +30,7 @@
 .piclink {
     background: blue;
     height: 200px;
+    background-image: url('../images/creative.jfif');
     flex: 1;
     margin: 5px 0;
     margin-right: 5px;
