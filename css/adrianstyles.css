@@ -49,7 +49,8 @@
 .link1 {
     background-image: url('../images/creative.jfif');
     background-position: 55% 12%;
-
+    
+    
 }
 
 .link2 {
@@ -62,3 +63,39 @@
     background-position: 35% 80%;
 }
 
+
+.link1:hover {
+    background:  
+    linear-gradient(
+        rgba(13, 47, 241, 0.438), 
+        rgba(255, 0, 0, 0.438)
+      ),
+        url('../images/creative.jfif');
+
+
+    background-position: 50% 12%;
+}
+
+.link2:hover {
+    background:  
+    linear-gradient(
+        rgba(202, 40, 53, 0.438), 
+        rgba(0, 140, 255, 0.438)
+      ),
+        url('../images/corporate.jfif');
+
+
+    background-position: 50% 12%;
+}
+
+.link3:hover {
+    background:  
+    linear-gradient(
+        rgba(80, 2, 126, 0.438), 
+        rgba(80, 0, 0, 0.438)
+      ),
+        url('../images/Mysterious.jfif');
+
+
+    background-position: 40% 60%;
+}
