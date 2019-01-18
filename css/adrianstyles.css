@@ -1,0 +1,19 @@
+.wrapper {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.formal h1 {
+    font-family: 'Poiret One', cursive;
+    font-size: 55px;
+}
+
+.formal h2 {
+    font-family: 'Poiret One', cursive
+}
+
+.formal p {
+
+    font-family: 'Quattrocento', serif;
+    font-size: 25px;
+}
