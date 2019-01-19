@@ -134,39 +134,47 @@
 .creative {
     margin: 0 auto;
     max-width: 800px;
-    text-decoration: none;
+    text-decoration: none!important;
 
 }
 
 .creative .bigcreative {
+
+    display: flex;
     font-size: 125px;
     font-family: 'Monoton', cursive;
-    display: flex;
+    color: rgb(8, 145, 145);
     justify-content: center;
 
 }
 
 .creative .navbar {
-    background-color:black;
-    height: 80px;
-    width: 900px;
+    
+    height: 50px;
+    width: 800px;
     font-family: 'Candal', sans-serif;
     display: flex;
-    padding: 20 0px;
+    padding: 10 0px;
     justify-content: space-around;
+    text-decoration: none!important;
 
 }
 .creative .navbar p {
-    color: white;
-    text-decoration: none;
+    color: orangered;
+    text-decoration: none!important;
 }
 .creative .header {
+    font-family: 'Sarabun', sans-serif;
+    font-size: 20px;
     display: flex-start;
     align-items: center;
     width: 600px;
 }
 
+
+
 .creative .header p {
+    font-family: 'Abel', sans-serif;
     display: flex-start;
     width: 300px;
 }
