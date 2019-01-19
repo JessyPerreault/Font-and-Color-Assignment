@@ -17,6 +17,7 @@
 
         font-family: 'Quattrocento', serif;
         font-size: 20px;
+        text-decoration: none;
     
     }
 
@@ -85,7 +86,7 @@
         background:  
         linear-gradient(
             rgba(13, 47, 241, 0.438), 
-             rgba(255, 0, 0, 0.438)
+            rgba(255, 0, 0, 0.438)
         ),
             url('../images/creative.jfif');
 
@@ -129,6 +130,61 @@
     .link3 p {
         font-family: 'Fredericka the Great', cursive;
     }
+
+.creative {
+    margin: 0 auto;
+    max-width: 800px;
+    text-decoration: none;
+
+}
+
+.creative .bigcreative {
+    font-size: 125px;
+    font-family: 'Monoton', cursive;
+    display: flex;
+    justify-content: center;
+
+}
+
+.creative .navbar {
+    background-color:black;
+    height: 80px;
+    width: 900px;
+    font-family: 'Candal', sans-serif;
+    display: flex;
+    padding: 20 0px;
+    justify-content: space-around;
+
+}
+.creative .navbar p {
+    color: white;
+    text-decoration: none;
+}
+.creative .header {
+    display: flex-start;
+    align-items: center;
+    width: 600px;
+}
+
+.creative .header p {
+    display: flex-start;
+    width: 300px;
+}
+
+
+
+    
+
+    
+
+
+
+
+ 
+
+
+
+
 
 /* font-family: 'Fredoka One', cursive;
 font-family: 'Luckiest Guy', cursive;
