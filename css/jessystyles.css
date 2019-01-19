@@ -1,5 +1,7 @@
+/* insert new pages styles below */
 
-body {
+
+.fun-body {
     margin: 0;
     padding: 0;
     
@@ -11,7 +13,7 @@ body {
     
 }
 
-#header {
+.fun-header {
     /* top: 0;
     left: 0; */
     width: 100%;
@@ -21,7 +23,7 @@ body {
     box-sizing: border-box;
 }
 
-#logo {
+.fun-logo {
     /* padding:10px; */
     line-height: 10px;
     float:left;
@@ -88,22 +90,22 @@ main {
   }
 
 /* Menu */
-nav { 
+.fun-nav { 
     margin:0 auto; 
     padding:0; 
     float:right;
 }
-nav ul { 
+.fun-nav ul { 
     list-style:none; 
     padding:0; 
     float:left;
 }
-nav ul li { 
+.fun-nav ul li { 
     margin:0; 
     padding:0 0 0 8px; 
     float:left;
 }
-nav ul li a { 
+.fun-nav ul li a { 
     display:block; 
     margin:0 auto; 
     padding:8px 20px; 
@@ -115,11 +117,13 @@ nav ul li a {
 }
         
 /*IE6 fix*/
-* html body{
+* html .fun-body{
     padding: 100px 0 0 0; /* Set the first value to the height of the header */
 }
 
-/* * html main{ 
+* html .fun-main{ 
     height: 100%; 
     width: 100%; 
-} */
+}
+
+/* Insert new page styles below */
