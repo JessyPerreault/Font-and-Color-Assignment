@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    }
+
+
+.wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+        }  
+
+        body{
+            margin: 0;
+            background-color: bisque;
+        }
+.h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 28px;
+    }
+
+header relaxed {
+    background-color: olive;	
+    height: 200px;
+    width: 100%;
+    padding-top: 20px;
+    }
+    
+main relaxed {
+    height: 400px;
+    padding: 80px 0;
+    }
+    
+footer relaxed {
+    height: 200px;
+    background-color: blue;
+    color: white;
+    padding-top: 20px;
+    }
