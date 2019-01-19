@@ -1,7 +1,7 @@
 /* add new page styles below */
 
 
-body {
+.play-body {
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -38,7 +38,7 @@ body {
     border-bottom-left-radius: 10px;
 }
 
-main {
+.play-main {
     position: fixed;
     top: 100px;
     left: 0; 
@@ -49,7 +49,6 @@ main {
 
 .play-text-wrapper {
     text-align: center; 
-      
 }
 
 .play-text {
@@ -70,7 +69,7 @@ main {
 .play-text p{
     font-family: 'Kalam', cursive;
     color: white;
-    font-size: 18px;
+    font-size: 19px;
     letter-spacing: 1px;
 }
 
@@ -88,27 +87,24 @@ main {
     margin: 15px; /* Provides padding for the content */
 }
 
-p {
-    color: #555;
-}
 
 /* Menu */
-nav { 
+.play-nav { 
     margin:0 auto; 
     padding:0; 
     float:right;
 }
-nav ul { 
+.play-nav ul { 
     list-style:none; 
     padding:0; 
     float:left;
 }
-nav ul li { 
+.play-nav ul li { 
     margin:0; 
     padding:0 0 0 8px; 
     float:left;
 }
-nav ul li a { 
+.play-nav ul li a { 
     display:block; 
     margin:0 auto; 
     padding:8px 20px; 
