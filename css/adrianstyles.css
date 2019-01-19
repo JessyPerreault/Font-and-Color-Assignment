@@ -187,7 +187,13 @@
     
 }
 
+.corporate .navbar h1 {
+    font-family: 'Archivo Black', sans-serif;
+}
 
+.corporate .navbar p {
+    justify-content: flex-end;
+}
 
 
     
