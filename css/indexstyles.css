@@ -1,4 +1,8 @@
-.wrapper {
-    margin: 0 auto;
-    max-width: 800px;
+
+.index-list-wrapper {
+    text-align: center;
+}
+
+index-list-wrapper ul li{
+    display: inline;
 }
