@@ -279,22 +279,30 @@
 }
 
 
+
 .mysterious h1 {
     font-family: 'Carter One', cursive;
-    padding: 30px;
+    padding: 0px;
     text-align: center;
+    font-size: 60px;
+    margin: 0;
 }
 
-.mysterious ul {
-    display: inline;
-    list-style: none;
+.mysterious .nav ul {
+    display: flex;
+    text-align: center;
     text-decoration: none;
-    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+
 }
 
 .mysterious li {
-    display: inline;
-    float: right; 
+    
+    list-style: none;
+
+    
+    
 }
 
 /* 
