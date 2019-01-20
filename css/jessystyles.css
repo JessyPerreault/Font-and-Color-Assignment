@@ -413,7 +413,7 @@
     overflow: hidden;
     height: 100%; 
     max-height: 100%;  
-    background-image: url(../pages/jessy/Backgrounds/wood-background.jpeg);
+    background-image: url(../pages/jessy/Backgrounds/concrete_wall_2/concrete_wall_2.png);
     
 }
 
@@ -431,7 +431,7 @@
 	/* border:1px solid black;
     padding:10px; */
     
-    background: #14323c;
+    background-image: url(../pages/jessy/Backgrounds/grayandbluesurface.jpeg);
 	
 }
 
@@ -440,7 +440,7 @@
     float:left;
     margin-left: 30px;
     font-family: 'Philosopher', sans-serif;
-    color: #9fa2a7;
+    color: #556172;
     font-size: 30px;
     text-decoration: none;
     letter-spacing: 1px;
@@ -474,18 +474,18 @@
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
-    border: 5px solid rgb(0, 0, 0);
+    /* border: 5px solid rgb(0, 0, 0);
     border-top-right-radius: 30px;   
     border-top-left-radius: 30px;
     border-bottom-right-radius: 30px;
-    border-bottom-left-radius: 30px; 
+    border-bottom-left-radius: 30px;  */
     padding-right: 20px;
     padding-left: 20px;
 }
 
 .trustworthy-text p{
-    font-family: 'Orbitron', sans-serif;
-    color: rgb(0, 0, 0);
+    font-family: 'Alice', serif;
+    color: rgb(56, 60, 77);
     font-size: 19px;
     letter-spacing: 1px;
     font-weight: bold;
@@ -493,13 +493,13 @@
 
 .trustworthy-text h1{
     /* font-family: 'Indie Flower', cursive; */
-    font-family: 'Playfair Display SC', serif;
-    color: black;
+    font-family: 'Philosopher', sans-serif;
+    color: #3d4653;
     font-size: 35px;
     /* text-decoration: underline rgb(167, 132, 44); */
     letter-spacing: 1px;
     font-weight: bold;
-    border-bottom: 7px solid rgb(167, 132, 44);
+    border-bottom: 7px solid rgb(36, 41, 53);
 }
 
 .trustworthy-innertube {
@@ -527,14 +527,23 @@
     display:block; 
     margin:0 auto; 
     padding:8px 20px; 
-    color:silver; 
-    text-decoration: underline goldenrod;
-    font-family: 'Playfair Display SC', serif;
+    color:#CACFDB; 
+    text-decoration: underline #CACFDB;
+    font-family: 'Philosopher', sans-serif;
     font-size: 22px;
     letter-spacing: 3px;
     /* font-weight: lighter; */
+    background: rgb(92, 97, 114);
+
+    border: 5px solid rgba(0, 0, 0, 0);
+    border-top-right-radius: 15px;   
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px; 
 
 }
+
+
 
         
 /*IE6 fix*/
