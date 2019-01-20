@@ -225,7 +225,7 @@
     color: #3B9CFF;
 }
 
-ul {
+.corporate ul {
     display: inline;
     list-style: none;
     margin-bottom: 20px;
@@ -234,7 +234,7 @@ ul {
 }
 
 
-li {
+.corporate li {
     display: inline;
     cursor: pointer;
     margin-top: 10px;
@@ -248,7 +248,7 @@ li {
 
 }
 
-.backgroundimage {
+.corporate .backgroundimage {
     height: 400px;
     background-image: url(../images/corporateimage.jpg);
     background-size: cover;
@@ -266,6 +266,16 @@ li {
 
     
     
+}
+
+.corporate p2 {
+    margin-top: 100px;
+    max-width: 400px;
+    font-family: 'Quicksand', sans-serif;
+    align-items: center;
+    padding: 30px;
+    font-size: 16px;
+    margin-bottom: 30px;
 }
 
 
