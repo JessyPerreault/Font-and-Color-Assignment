@@ -268,7 +268,7 @@
     overflow: hidden;
     height: 100%; 
     max-height: 100%;  
-    background-image: url(../pages/jessy/Backgrounds/diamond_upholstery/diamond_upholstery.png);
+    background-image: url(../pages/jessy/Backgrounds/triangular/triangular.png);
     background: gradient
 }
 
@@ -283,10 +283,11 @@
     line-height: 5px;
 
     height:100px;
-	border:1px solid black;
-	padding:10px;
-	background: radial-gradient(ellipse farthest-corner at right bottom, rgb(92, 92, 92) 0%, rgb(48, 48, 48) 8%, #202020 30%, rgb(0, 0, 0) 40%, transparent 80%),
-                radial-gradient(ellipse farthest-corner at left top, rgb(126, 126, 126) 0%, rgb(49, 49, 49) 8%, rgb(31, 31, 31) 25%, #222222 62.5%, #000000 100%);
+	/* border:1px solid black;
+    padding:10px; */
+    
+    background-image: url(../pages/jessy/Backgrounds/footer_lodyas/footer_lodyas.png) ;
+	
 }
 
 .prestige-logo {
@@ -294,9 +295,9 @@
     float:left;
     margin-left: 30px;
     font-family: 'Permanent Marker', cursive;
-    color: rgb(255, 255, 255);
+    color: rgb(160, 138, 82);
     font-size: 30px;
-    text-decoration: underline rgb(255, 255, 255);
+    text-decoration: underline rgb(160, 138, 82);
     letter-spacing: 1px;
     font-weight: light;
 
@@ -328,7 +329,7 @@
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
-    border: 5px solid rgb(255, 255, 255);
+    border: 5px solid rgb(0, 0, 0);
     border-top-right-radius: 30px;   
     border-top-left-radius: 30px;
     border-bottom-right-radius: 30px;
@@ -339,7 +340,7 @@
 
 .prestige-text p{
     font-family: 'Kalam', cursive;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 19px;
     letter-spacing: 1px;
 }
@@ -347,9 +348,9 @@
 .prestige-text h1{
     /* font-family: 'Indie Flower', cursive; */
     font-family: 'Permanent Marker', cursive;
-    color: rgb(255, 50, 50);
+    color: rgb(0, 0, 0);
     font-size: 35px;
-    text-decoration: underline white;
+    text-decoration: underline rgb(0, 0, 0);
     letter-spacing: 1px;
     font-weight: lighter;
 }
