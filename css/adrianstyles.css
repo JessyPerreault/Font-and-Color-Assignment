@@ -229,6 +229,8 @@ ul {
     display: inline;
     list-style: none;
     margin-bottom: 20px;
+    color: #3134A1 !important;
+    text-decoration: none;
 }
 
 
@@ -240,6 +242,8 @@ li {
     margin-left: -5px;
     float: right;
     font-family: 'Dosis', sans-serif;
+    color: #3134A1;
+    text-decoration: none;
     
 
 }
@@ -250,7 +254,23 @@ li {
     background-size: cover;
     flex: auto;
     margin-top: 55px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #3134A1 !important;
+    text-decoration: none;
+   
+
+    
+    
 }
+
+
+
+
 
 
 
