@@ -186,14 +186,25 @@
   
     
 }
+.corporate {
+    margin: 0 auto;
+    max-width: 800px;
+    display: flex;
+ 
+}
 
-.corporate .navbar h1 {
+.headercorporate {
     font-family: 'Archivo Black', sans-serif;
+    margin-left: 20px;
 }
 
-.corporate .navbar p {
-    justify-content: flex-end;
+.creativelinks {
+    justify-content: center;
 }
+
+
+
+
 
 
     
