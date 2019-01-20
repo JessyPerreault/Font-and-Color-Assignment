@@ -1,3 +1,6 @@
+
+
+
 .formal .wrapper {
     margin: 0 auto;
     max-width: 800px;
@@ -186,25 +189,30 @@
   
     
 }
-.corporate {
+
+
+.corporate .container {
     margin: 0 auto;
     max-width: 800px;
-    display: flex;
- 
+    overflow: hidden;
 }
 
-.headercorporate {
+
+.header {
+    text-align: center;
     font-family: 'Archivo Black', sans-serif;
-    margin-left: 20px;
+    font-size: 50px
 }
-
-.creativelinks {
-    justify-content: center;
+.topnav {
+    overflow: hidden;
+    float: right;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17;
+    
+    width: 800px;
+    margin-bottom: 30px;
 }
-
-
-
-
 
 
     
