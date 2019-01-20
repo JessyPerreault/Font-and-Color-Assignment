@@ -193,12 +193,13 @@
 
 .corporate .container {
     margin: 0 auto;
-    max-width: 800px;
+    padding: 0;
+    box-sizing: border-box;
     overflow: hidden;
 }
 
 
-.header {
+/* .header {
     text-align: center;
     font-family: 'Archivo Black', sans-serif;
     font-size: 50px
@@ -212,17 +213,48 @@
     
     width: 800px;
     margin-bottom: 30px;
+} */
+
+
+.corporate .header {
+    float: left;
+    padding: 20px;
+    vertical-align: left;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 30px;
+    color: #3B9CFF;
+}
+
+ul {
+    display: inline;
+    list-style: none;
+    margin-bottom: 20px;
 }
 
 
+li {
+    display: inline;
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 20px;
+    margin-left: -5px;
+    float: right;
+    font-family: 'Dosis', sans-serif;
     
 
+}
+
+.backgroundimage {
+    height: 400px;
+    background-image: url(../images/corporateimage.jpg);
+    background-size: cover;
+    flex: auto;
+    margin-top: 55px;
+}
+
+
+
     
-
-
-
-
- 
 
 
 
