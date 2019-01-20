@@ -412,8 +412,8 @@
     padding: 0;
     overflow: hidden;
     height: 100%; 
-    max-height: 100%;  
-    background-image: url(../pages/jessy/Backgrounds/hardwood.jpeg);
+    background-size: 100% 100%;  
+    background: url(../pages/jessy/Backgrounds/hardwood.jpeg);
     
 }
 
