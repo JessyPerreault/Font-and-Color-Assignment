@@ -279,13 +279,30 @@
 }
 
 
+.mysterious h1 {
+    font-family: 'Carter One', cursive;
+    padding: 30px;
+    text-align: center;
+}
 
+.mysterious ul {
+    display: inline;
+    list-style: none;
+    text-decoration: none;
+    align-items: center;
+}
 
+.mysterious li {
+    display: inline;
+    float: right; 
+}
 
-
-
-    
-
+/* 
+font-family: 'Righteous', cursive;
+font-family: 'Amatic SC', cursive;
+font-family: 'Carter One', cursive;
+font-family: 'Syncopate', sans-serif;
+font-family: 'Cabin Sketch', cursive; */
 
 
 
