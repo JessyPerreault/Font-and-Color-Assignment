@@ -1,8 +1,56 @@
 
-.index-list-wrapper {
-    text-align: center;
+html, body {
+    margin: 0; 
+    height: 100%; 
+    overflow: hidden;
 }
 
-index-list-wrapper ul li{
-    display: inline;
+body {
+    margin: 400px;
+    background-size: 100% 100%;
+    background: url(../pages/jessy/Backgrounds/compscreen.png);
+    top: 10%;
+    background-position: center;
+    background-repeat: no-repeat;
+    
 }
+
+/* main */
+
+.index-list-wrapper {
+    text-align: center;
+    margin-right: 100px;
+}
+
+.index-list-wrapper ul li{
+    font-family: 'Yellowtail', cursive;
+    font-size: 40px;
+    font-weight: bold;
+    
+    
+}
+.index-list-wrapper ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #7e5f44;
+    
+    border: 5px solid black;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+}
+
+.index-list-wrapper ul {
+    list-style: none;
+    position: fixed;
+    top: 10%;
+    right: 47%;
+    
+}
+
+/* .index-list-wrapper ul li a .jessy-link {
+    size: 5px 5px;
+    border: 5px solid black;
+} */
