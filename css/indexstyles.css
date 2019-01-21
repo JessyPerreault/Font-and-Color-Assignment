@@ -1,56 +1,45 @@
-
-html, body {
-    margin: 0; 
-    height: 100%; 
-    overflow: hidden;
+* {
+    box-sizing: border-box;
 }
 
-body {
-    margin: 400px;
-    background-size: 100% 100%;
-    background: url(../pages/jessy/Backgrounds/compscreen.png);
-    top: 10%;
-    background-position: center;
-    background-repeat: no-repeat;
-    
+
+.background-container {
+    background-position: absolute;
+        width: 100vw;
+        height: 100vh;
+        background: url(../pages/jessy/Backgrounds/compscreen.png);
+        background-position: 50% 40%;
+        background-size: cover;
 }
-
-/* main */
-
-.index-list-wrapper {
-    text-align: center;
-    margin-right: 100px;
-}
-
-.index-list-wrapper ul li{
+ul li {
+    list-style: none;
+    border: 5px solid rgb(53, 53, 53);
+    margin: 10px;
+    padding: 10px;
+    color: #83664c;
     font-family: 'Yellowtail', cursive;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: bold;
     
-    
 }
-.index-list-wrapper ul li a {
+.links {
     display: inline-block;
+    /* text-align: center; */
+    max-width: 500px;
+    position: relative;
+    top: 15%;
+    left: 42%;
+    
+    
+}
+
+.links ul  a {
+    display:block !important;
+    width:100%;
+    height:100%;
     text-decoration: none;
-    color: #7e5f44;
-    
-    border: 5px solid black;
-    border-radius: 10px;
-    margin-bottom: 8px;
-    padding-right: 10px;
-    padding-left: 10px;
-    
 }
 
-.index-list-wrapper ul {
-    list-style: none;
-    position: fixed;
-    top: 10%;
-    right: 47%;
-    
+a:link,a:hover,a:visited,a:active {
+    color: #83664c;
 }
-
-/* .index-list-wrapper ul li a .jessy-link {
-    size: 5px 5px;
-    border: 5px solid black;
-} */

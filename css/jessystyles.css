@@ -117,6 +117,23 @@
 
 }
 
+.play-footer {
+    
+    /* border-bottom: 5px solid rgba(135, 44, 196, 0.671); */
+    padding: 30px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
+  .play-footer hr{
+    margin: 30px -50px 20px;
+    border: 0;
+    border-top: 5px solid white;
+  }
+
         
 /*IE6 fix*/
 * html body{
@@ -210,7 +227,7 @@
 }
 
 .fun-footer {
-    border-top: 5px solid rgba(88, 22, 133, 0.671);
+    
     /* border-bottom: 5px solid rgba(135, 44, 196, 0.671); */
     padding: 30px;
     position: fixed;
@@ -219,6 +236,11 @@
     width: 100%;
     color: white;
     text-align: center;
+  }
+  .fun-footer hr{
+    margin: 30px -50px 20px;
+    border: 0;
+    border-top: 5px solid rgba(88, 22, 133, 0.671);
   }
 
 /* Menu */
@@ -391,6 +413,23 @@
 
 }
 
+.prestige-footer {
+    
+    /* border-bottom: 5px solid rgba(135, 44, 196, 0.671); */
+    padding: 30px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
+  .prestige-footer hr{
+    margin: 30px -50px 20px;
+    border: 0;
+    border-top: 5px solid black;
+  }
+
         
 /*IE6 fix*/
 * html body{
@@ -485,7 +524,7 @@
 
 .trustworthy-text p{
     font-family: 'Alice', serif;
-    color: rgb(179, 144, 122);
+    color: rgb(184, 145, 121);
     font-size: 19px;
     letter-spacing: 1px;
     font-weight: bold;
@@ -542,6 +581,23 @@
     border-bottom-left-radius: 15px;  */
 
 }
+
+.trustworthy-footer {
+    
+    /* border-bottom: 5px solid rgba(135, 44, 196, 0.671); */
+    padding: 30px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
+  .trustworthy-footer hr{
+    margin: 30px -50px 20px;
+    border: 0;
+    border-top: 5px solid rgb(105, 78, 66);
+  }
 
 
 
