@@ -1,19 +1,354 @@
-.wrapper {
+
+
+
+.formal .wrapper {
     margin: 0 auto;
     max-width: 800px;
 }
 
-.formal h1 {
-    font-family: 'Poiret One', cursive;
-    font-size: 55px;
+    .formal h1 {
+        font-family: 'Poiret One', cursive;
+        font-size: 55px;
+    }
+
+    .formal h2 {
+        font-family: 'Poiret One', cursive;
+        color: #800000;
+    }
+
+    .formal p {
+
+        font-family: 'Quattrocento', serif;
+        font-size: 20px;
+        text-decoration: none;
+    
+    }
+
+    .hero {
+        height: 400px;
+        background: #800000;
+        background-image: url('../images/Formal.gif');
+        background-size: cover;
+        flex: auto;
+    }
+
+    .piclink {
+        background: blue;
+        height: 200px;
+    
+        flex: 1;
+        margin: 5px 0;
+        margin-right: 5px;
+        color: white; 
+
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .piclink:last-child {
+        margin-right: 0;
+    }
+
+    .section2 {
+    display: flex;
+    
+    }
+
+    .blankspace {
+        color: white;
+        width: 100%;
+        height: 200px;
+    }
+
+    .link1 {
+        background-image: url('../images/creative.jfif');
+        background-position: 55% 12%;
+        text-decoration: none;
+    
+
+    
+    
+    }
+
+    .link2 {
+        background-image: url('../images/corporate.jfif');
+        background-position: 45% 70%;
+        text-decoration: none;
+    }
+
+    .link3 {
+        background-image: url('../images/Mysterious.jfif');
+        background-position: 40% 80%;
+        text-decoration: none;
+    }
+
+
+    .link1:hover {
+        background:  
+        linear-gradient(
+            rgba(13, 47, 241, 0.438), 
+            rgba(255, 0, 0, 0.438)
+        ),
+            url('../images/creative.jfif');
+
+
+        background-position: 50% 12%;
+    }
+
+    .link2:hover {
+        background:  
+        linear-gradient(
+            rgba(202, 40, 53, 0.438), 
+            rgba(0, 140, 255, 0.438)
+        ),
+            url('../images/corporate.jfif');
+
+
+        background-position: 50% 12%;
+    }
+
+    .link3:hover {
+        background:  
+        linear-gradient(
+         rgba(80, 2, 126, 0.438), 
+         rgba(80, 0, 0, 0.438)
+        ),
+            url('../images/Mysterious.jfif');
+
+
+        background-position: 30% 80%;
+    }
+
+    .link1 p {
+        font-family: 'Monoton', cursive;
+        font-size: 20px;
+    }
+
+    .link2 p {
+        font-family: 'Fredoka One', cursive
+    }
+
+    .link3 p {
+        font-family: 'Fredericka the Great', cursive;
+    }
+
+.creative {
+    margin: 0 auto;
+    max-width: 800px;
+    text-decoration: none!important;
+
 }
 
-.formal h2 {
-    font-family: 'Poiret One', cursive
+.creative .bigcreative {
+
+    display: flex;
+    font-size: 125px;
+    font-family: 'Monoton', cursive;
+    color: rgb(8, 145, 145);
+    justify-content: center;
+
 }
 
-.formal p {
+.creative .navbar {
+    
+    height: 50px;
+    width: 800px;
+    font-family: 'Candal', sans-serif;
+    display: flex;
+    padding: 10 0px;
+    justify-content: space-around;
+    
 
-    font-family: 'Quattrocento', serif;
-    font-size: 25px;
 }
+.creative .navbar p {
+    color: orangered;
+    text-decoration: none!important;
+}
+.creative .header {
+    font-family: 'Sarabun', sans-serif;
+    font-size: 20px;
+    display: flex-start;
+    align-items: center;
+    width: 600px;
+}
+
+
+
+.creative .header p {
+    font-family: 'Abel', sans-serif;
+    display: flex-start;
+    width: 300px;
+}
+
+.creative .pencilpic {
+
+    align-self: auto;
+    flex: auto;
+  
+    
+}
+
+
+.corporate .container {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+
+
+
+.corporate .header {
+    float: left;
+    padding: 20px;
+    vertical-align: left;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 30px;
+    color: #3B9CFF;
+}
+
+.corporate ul {
+    display: inline;
+    list-style: none;
+    margin-bottom: 20px;
+    color: #3134A1 !important;
+    text-decoration: none;
+}
+
+
+.corporate li {
+    display: inline;
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 20px;
+    margin-left: -5px;
+    float: right;
+    font-family: 'Dosis', sans-serif;
+    color: #3134A1;
+    text-decoration: none;
+    
+
+}
+
+.corporate .backgroundimage {
+    height: 400px;
+    background-image: url(../images/corporateimage.jpg);
+    background-size: cover;
+    flex: auto;
+    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #3134A1 !important;
+    text-decoration: none;
+   
+
+    
+    
+}
+
+.corporate p2 {
+    margin-top: 100px;
+    max-width: 400px;
+    font-family: 'Quicksand', sans-serif;
+    align-items: center;
+    padding: 30px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+
+.backgroundimage {
+    background-image: url(../images/corporateimage.jpeg);
+    background-size:cover;
+    height: 500px;
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+    
+}
+    
+
+
+.backgroundimage .container {
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.mysterious .nav  {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    font-family: 'Righteous', cursive; 
+    margin: 0;
+    color: white;
+    
+
+} 
+
+
+
+
+
+.mysterious h1 {
+    font-family: 'Amatic SC', cursive;
+    padding: 10px;
+    text-align: center;
+    font-size: 80px;
+    margin: 0;
+    color:#D3D3D3;
+}
+
+
+.mysterious p {
+    text-align: center;
+    font-family: 'Cabin Sketch', cursive; 
+    color: #A9A9A9;
+    padding: 0;
+    margin: 0;
+  
+
+}
+
+.mysterious p2 {
+    text-align: center;
+    color: rgba(169, 169, 169, 0.61);
+    font-family: 'Candal', sans-serif;
+    font-size: 14px;
+}
+
+
+/* 
+font-family: 'Righteous', cursive;
+font-family: 'Amatic SC', cursive;
+font-family: 'Carter One', cursive;
+font-family: 'Syncopate', sans-serif;
+font-family: 'Cabin Sketch', cursive; */
+
+
+
+
+/* font-family: 'Fredoka One', cursive;
+font-family: 'Luckiest Guy', cursive;
+font-family: 'Monoton', cursive;
+font-family: 'Bangers', cursive;
+font-family: 'Sigmar One', cursive;
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Bowlby One SC', cursive;
+font-family: 'Scheherazade', serif;
+font-family: 'Candal', sans-serif; */
