@@ -276,7 +276,7 @@ body {
 
 .backgroundimage {
     background-image: url(../images/corporateimage.jpeg);
-    width: end;
+    background-size:cover;
     height: 500px;
     background-repeat: no-repeat;
     filter: grayscale(100%);
