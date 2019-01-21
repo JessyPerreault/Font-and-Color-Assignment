@@ -307,7 +307,7 @@ body {
 
 .mysterious h1 {
     font-family: 'Amatic SC', cursive;
-    padding: 0px;
+    padding: 10px;
     text-align: center;
     font-size: 80px;
     margin: 0;
@@ -327,7 +327,9 @@ body {
 
 .mysterious p2 {
     text-align: center;
-    color: #A9A9A9;
+    color: rgba(169, 169, 169, 0.61);
+    font-family: 'Candal', sans-serif;
+    font-size: 14px;
 }
 
 
