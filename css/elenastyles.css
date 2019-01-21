@@ -12,65 +12,136 @@ body {
     margin: 0 auto;
     }
 
-/*  END OF GENERAL RULES for all pages */	
-
-/* ### Styles For RELAXED ### */    
-.header {
+header {
     overflow: hidden;
-    background-color: #F3D976;
-    padding: 12px 28px;
-    font-family:'Montserrat', sans-serif;
-       }
-  
-.header a {
-    float: left;
-    color: #274745;
+    padding: 12px 26px;
+        }
+
+header a {
+    float: right;	
     text-align: center;
     padding: 10px;
     text-decoration: none;
     font-size: 18px; 
-    line-height: 20px;
+    line-height: 18px;
     border-radius: 4px;
-     }
-  
-  .header a.logo {
+             }
+
+header a.logo {
     font-size: 36px;
     font-weight: 900;
-  }
-  
-  .header a:hover {
-    background-color: #F2EBA7;
-    color: #81B7B1;
-  }
-  
-  .header a.active {
-    color: #81B7B1;
-  }
-  
-  .header-right {
-    float: right;
-       }
-  
+    float: left;
+        }
 
 main {
     height: 600px;
-    padding: 100px 0;
-    background-color: #81B7B1;
+    padding: 122px 0;
     }
 
 main p{
-    color: #274745;
-    font-family:'Didact Gothic', sans-serif;
-    font-size: 18px;
-    text-align: center;
     line-height: 1.6;
-    padding: 140px 60px 80px;
+    }
+
+footer{
+    height: 162px;
+    padding-top: 88px;
 }
 
-/* CLIPPED DETAILS---*/
+footer p { 
+    font-size: 16px;
+    text-align: center;
+         }
 
-#slogan1 {
-    background: url(es001_greengrass.jpg)no-repeat top center;
+/*  END OF GENERAL RULES for all pages */	
+
+/* ### Styles For ENERGETIC ### */    
+.energetic header {
+    background-color: #850009; /* TO CHANGE */	
+    font-family: 'Reem Kufi', sans-serif; /* TO CHANGE now */	
+       }
+  
+.energetic header a {
+    color: #c7a003; /* TO CHANGE */	
+     }
+  
+.energetic header a:hover { /* TO CHANGE */	
+    background-color:  #ba4c49;;
+    color:#e8ecf2;
+          }
+  
+.energetic header a.active { /* TO CHANGE */	
+    color:#689f96;  
+               }
+
+.energetic main {
+    background-color: #850009; /* TO CHANGE */	
+    }
+
+.energetic main p{
+    color: #d7bc4e; /* TO CHANGE */	
+    font-family: 'Reem Kufi', sans-serif;  /* TO CHANGE */	
+    font-size: 32px; /* TO CHANGE */	
+    text-align: center; /* TO CHANGE */	
+    padding: 128px 220px 80px; /* TO CHANGE */	
+
+/* STYLING OF H1 */
+            }
+.energetic #slogan1 h1 {
+    font-size: 122px;
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+    color:#1d6f61;
+    margin: -162px ;
+            }
+
+/* END of STYLING OF H1 */
+    
+.energetic footer {
+    background-color: #ba4c49; /* TO CHANGE */	
+    }
+
+.energetic footer p { /* TO CHANGE */	
+    color: #c7a003;
+    font-family: 'Reem Kufi', sans-serif; 
+         }
+
+/* ### End of styles For ENERGETIC ### */   
+
+/* ### Styles for RELAXED ### */   
+
+.relaxed header {
+    background-color: #F3D976; /* TO CHANGE */	
+    font-family:'Montserrat', sans-serif; /* TO CHANGE now */	
+       }
+  
+.relaxed header a {
+    color: #274745; /* TO CHANGE */	
+     }
+  
+.relaxed header a:hover { /* TO CHANGE */	
+    background-color:#F2EBA7;
+    color: #AF818D;
+                  }
+  
+.relaxed a.active { /* TO CHANGE */	
+    color: #677e7c;
+               }
+
+.relaxed main {
+    background-color: #76978A; /* TO CHANGE */	
+    }
+
+.relaxed main p{
+    color: #274745; /* TO CHANGE */	
+    font-family:'Didact Gothic', sans-serif; /* TO CHANGE now */	
+    font-size: 20px; /* TO CHANGE */	
+    text-align: left; /* TO CHANGE */	
+    padding: 118px 220px 80px; /* TO CHANGE */	
+                  }
+
+/* STYLING OF H1 */
+.relaxed #slogan1 {
+    background: url(es001_greengrass.jpg)no-repeat top center; /* clipped style */
     background-size: cover;
     color: #fff;
     -webkit-text-fill-color: transparent;
@@ -81,28 +152,146 @@ main p{
     -o-transition: all 2s ease;
     -ms-transition: all 2s ease;
     transition: all 2s ease;
-}
-/* CLIPPED H1---*/
-#slogan1 h1 {
-    font-size: 140px;
+            }
+
+.relaxed #slogan1 h1 {
+    font-size: 144px;
     font-family: 'Kaushan Script', cursive;
     text-align: center;
     text-shadow: 0 0 1px rgba(0,0,0,.1);
     margin: -150px 150px;
     padding: 20px;
             }
-    
-footer {
-    background-color:#F3D976;
-    height: 150px;
-    text-align: center;
-    padding-top: 88px;
+
+/* END of STYLING OF H1 */
+
+.relaxed footer {
+    background-color: #F3D976; /* TO CHANGE */	
+              }
+
+.relaxed footer p { 
+    color: #274745;
+    font-family:'Montserrat', sans-serif; /* TO CHANGE now */	
+         }
+   
+/* ### End of styles for RELAXED ### */   
+
+/* ### Styles for SOPHISTICATED ### */   
+
+.sophisticated header {
+    background-color: #800040; /* TO CHANGE */	
+    font-family:'Poiret One', cursive; /* TO CHANGE now */	
+       }
+  
+.sophisticated header a {
+    color:#a98c2c; /* TO CHANGE */	
+     }
+  
+.sophisticated header a:hover { /* TO CHANGE */	
+    background-color:#bfbfbf;
+    color:#947a26;
+                  }
+  
+.sophisticated a.active { /* TO CHANGE */	
+    color:#a9a9a9;
+               }
+
+.sophisticated main {
+    background-color:#2a2a2a; /* TO CHANGE */	
     }
 
-footer p {
-    color: #274745;
-    font-size: 16px;
-    font-family:'Montserrat', sans-serif;
+.sophisticated main p{
+    color:#800040; /* TO CHANGE */	
+    font-family:'Montserrat Alternates', sans-serif; /* TO CHANGE now */	
+    font-size: 20px; /* TO CHANGE */	
+    text-align: center; /* TO CHANGE */	
+    padding: 130px 220px 80px; /* TO CHANGE */	
+                  }
+
+/* STYLING OF H1 */
+.sophisticated #slogan1 {
+    background: url(es002_goldbokeh.jpg)no-repeat top center; /* clipped style */
+    background-size: cover;
+    color: #fff;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -o-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    transition: all 2s ease;
+            }
+
+.sophisticated #slogan1 h1 {
+    font-size: 156px;
+    font-family: 'Poiret One', cursive;
+    text-align: center;
+    text-shadow: 0 0 1px rgba(0,0,0,.1);
+    margin: -172px 150px;
+    padding: 30px;
+            }
+
+/* END of STYLING OF H1 */
+
+.sophisticated footer {
+    background-color: #2a2a2a; /* TO CHANGE */	
+              }
+
+.sophisticated footer p { 
+    color: #947a26;
+    font-family:'Poiret One', cursive; /* TO CHANGE now */	
          }
 
-/* ### End of styles For RELAXED ### */   
+/* ### End of styles for SOPHISTICATED ### */
+
+/* ### Styles for YOUTHFUL ### */   
+.youthful header {
+    background-color:#5fa55a; /* TO CHANGE */	
+    font-family: 'Fjalla One', sans-serif; /* TO CHANGE now */	
+       }
+  
+.youthful header a {
+    color:#f6d51f; /* TO CHANGE */	
+     }
+  
+.youthful header a:hover { /* TO CHANGE */	
+    background-color: #01b4bc;;
+    color:#FFFFFF;
+          }
+  
+.youthful header a.active { /* TO CHANGE */	
+    color:#fa5457;  
+               }
+
+.youthful main {
+    background-color:#fa8925; /* TO CHANGE */	
+    }
+
+.youthful main p{
+    color:#5fa55a; /* TO CHANGE */	
+    font-family:'Permanent Marker', cursive; /* TO CHANGE */	
+    font-size: 44px; /* TO CHANGE */	
+    text-align: center; /* TO CHANGE */	
+    padding: 128px 220px 80px; /* TO CHANGE */	
+
+/* STYLING OF H1 */
+            }
+.youthful #slogan1 h1 {
+    font-size: 134px;
+    font-family:'Syncopate', sans-serif;
+    text-align: center;
+    color:#01b4bc;
+    margin: -60px ;
+            }
+
+/* END of STYLING OF H1 */
+    
+.youthful footer {
+    background-color:#fa5457; /* TO CHANGE */	
+    }
+
+.youthful footer p { /* TO CHANGE */	
+    color:#f6d51f;
+    font-family: 'Fjalla One', sans-serif;
+         }
